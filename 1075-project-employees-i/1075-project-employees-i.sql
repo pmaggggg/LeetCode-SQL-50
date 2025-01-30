@@ -1,4 +1,4 @@
-# Write your MySQL query statement
+# Write your MySQL query 
 SELECT p.project_id, ROUND((SUM(e.experience_years) / COUNT(p.project_id)), 2) AS average_years
 FROM Project as p
 INNER JOIN Employee as e
